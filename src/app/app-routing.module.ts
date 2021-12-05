@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AddProjectPageComponent} from './project/components/add-project-page/add-project-page.component';
-import {ProjectCardComponent} from './project/components/project-card/project-card.component';
-import {LoginComponent} from './user/components/login/login.component';
-import {SignUpComponent} from './user/components/sign-up/sign-up.component';
-import {HomeComponent} from './home/home.component';
-import {ProjectPageComponent} from './project/components/project-page/project-page.component';
+import { AddProjectPageComponent } from './views/project/add-project-page/add-project-page.component';
+import { ProjectCardComponent } from './views/project/project-card/project-card.component';
+import { ProjectPageComponent } from './views/project/project-page/project-page.component';
+import { LoginComponent } from './views/user/login/login.component';
+import { SignUpComponent } from './views/user/sign-up/sign-up.component';
+import { HomeComponent } from './views/home/home.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
