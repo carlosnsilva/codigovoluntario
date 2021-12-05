@@ -8,7 +8,8 @@ import { Observable } from 'rxjs';
 })
 export class ProjectService {
   
-  URL_PROJECTS = 'http://localhost:8080/projects/';
+  // URL_PROJECTS = 'http://localhost:8080/projects/';
+  URL_PROJECTS = "https://depsegames.herokuapp.com/projects";
 
   constructor(private httpClient: HttpClient) {
   }
